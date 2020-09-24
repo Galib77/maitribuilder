@@ -1,0 +1,21 @@
+ <!-- Campus  amenities start -->
+ <section class="amenities" id="amenities">
+    <div class="container">
+          <h1 class="title text-center text-light"> {{title}} </h1>
+                        <hr class="hr-tag">
+      <div class="row">
+
+          <div class="col-sm-12 col-md-3  col-lg-3 amenities-heading"  
+              *ngFor="let items of amenitiesList">
+              <p>
+                {{ items.name }}
+              </p>
+          </div>
+
+      </div>
+    </div>
+  </section>
+<!-- Campus  amenities end -->
+
+
+

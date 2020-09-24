@@ -1,0 +1,21 @@
+/* Campus  amenities start */
+.amenities {
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('../../../assets/images/aminities.jpg') no-repeat
+	center center /cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.amenities-heading
+{
+    color: #fff;
+    transition: .5s;
+}
+
+.amenities-heading p {
+    text-align: center;
+}
+
+
+/* Campus  amenities end */
